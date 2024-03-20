@@ -32,7 +32,7 @@ export default function TimerChallenge({ title, targetTime }) {
           </button>
         </p>
         <p className={timerStarted ? "active" : undefined}>
-          {timerStarted ? "Time is running..." : "Timer inactive"}
+          {timerStarted ? "Time is running....." : "Timer inactive"}
         </p>
       </section>
     </>
